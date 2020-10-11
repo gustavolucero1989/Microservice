@@ -10,7 +10,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import java.util.Date;
 import java.util.List;
 
-@DataJpaTest
+@DataJpaTest se
 public class ProductRepositoryMockTest {
 
     @Autowired
@@ -21,7 +21,7 @@ public class ProductRepositoryMockTest {
     public void whenFindByCategory_thenReturnListProduct(){
         //Creamos un producto
         Product product01 = Product.builder()
-                .name("computer")
+                .name("Keyboard")
                 .category(Category.builder().id(1L).build())
                 .description("")
                 .stock(Double.parseDouble("10"))//parseDouble toma un String
