@@ -4,13 +4,14 @@ import com.example.serviceproduct.entity.Category;
 import com.example.serviceproduct.entity.Product;
 import com.example.serviceproduct.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
 
 @Service
+//Inyeccion de dependencia para el constructo
+//ProductServiceImpl(ProductRepository productRepository)
 @RequiredArgsConstructor
 public class ProductServiceImpl implements ProductService{
 

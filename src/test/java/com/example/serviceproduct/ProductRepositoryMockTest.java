@@ -10,6 +10,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import java.util.Date;
 import java.util.List;
 
+//Pruebas transaccionales se reviertes al final de la prueba
 @DataJpaTest
 public class ProductRepositoryMockTest {
 
