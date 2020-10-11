@@ -24,7 +24,7 @@ public class ProductRepositoryMockTest {
                 .name("Mouse")
                 .category(Category.builder().id(1L).build())
                 .description("")
-                .stock(Double.parseDouble("10"))//parseDouble toma un String
+                .stock(Double.parseDouble("20"))//parseDouble toma un String
                 .price(Double.parseDouble("1240.99"))
                 .status("Created")
                 .createAt(new Date()).build();// struct Objeto.builder().atributos.build()
