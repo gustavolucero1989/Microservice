@@ -21,7 +21,7 @@ public class ProductRepositoryMockTest {
     public void whenFindByCategory_thenReturnListProduct(){
         //Creamos un producto
         Product product01 = Product.builder()
-                .name("Mouse")
+                .name("computer")
                 .category(Category.builder().id(1L).build())
                 .description("")
                 .stock(Double.parseDouble("20"))//parseDouble toma un String
