@@ -2,6 +2,8 @@
 # En que puerto va a estar nuestra api
 server:
   port: 8091
+  error:
+      include-message: always
 
 #To see H2 Console in browser
 # http://localhost:8091/h2-console
